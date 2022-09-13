@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sao = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Alrair', 'Dubhe', 'Regulus'];
+    let chomSao = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+    let nhapSao = prompt('hay nhap sao vao day please:');
+
+    let check=sao.indexOf(nhapSao)
+    if(check===-1){
+        alert("Khong co")
+    }else {
+        alert("chomsao:  "+chomSao[sao.indexOf(nhapSao)])
+    }
+
+
+</script>
+</body>
+</html>
